@@ -21,7 +21,7 @@ app.listen(PORT,()=>{
 //     origin: 'http://192.168.0.109:3000', // Allow requests from this origin
 //     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 //   }));
-  app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+  app.use(cors({ credentials: true, origin: "https://65b61f58f4e8de3a798c3379--startling-kitsune-172a27.netlify.app/" }));
   app.use(express.json());
 app.use(cookieparser());
 
