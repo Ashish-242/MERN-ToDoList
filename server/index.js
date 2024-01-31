@@ -61,7 +61,7 @@ app.post("/login", async (req, res) => {
               res.cookie("token", token,{
                   sameSite:'none',
                   secure:true
-              }) ).json({
+              }).json({
                 id: user._id,
                 username: data.username,
               });
